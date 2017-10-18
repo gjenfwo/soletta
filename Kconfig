@@ -3,6 +3,7 @@ mainmenu "Soletta (TM) Framework configuration"
 source "Kconfig.gen"
 source "tools/build/Kconfig.features"
 
+
 config BASE_OS
     string
     default "contiki" if HAVE_CONTIKI
